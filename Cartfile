@@ -1,0 +1,5 @@
+github "ReactiveCocoa/ReactiveSwift" ~> 2.0.1
+github "Alamofire/Alamofire" ~> 4.5.1
+github "Alamofire/AlamofireNetworkActivityIndicator" ~> 2.2.0
+github "Alamofire/AlamofireImage" ~> 3.3.0
+github "realm/realm-cocoa" ~> 2.10.1
