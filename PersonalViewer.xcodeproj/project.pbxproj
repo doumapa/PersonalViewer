@@ -28,6 +28,8 @@
 		CC89FA501F76BB9F00FA3D39 /* AlamofireImage.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CC89FA491F76BB9F00FA3D39 /* AlamofireImage.framework.dSYM */; };
 		CC89FA511F76BB9F00FA3D39 /* AlamofireNetworkActivityIndicator.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CC89FA4A1F76BB9F00FA3D39 /* AlamofireNetworkActivityIndicator.framework.dSYM */; };
 		CC89FA521F76BB9F00FA3D39 /* Alamofire.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CC89FA4B1F76BB9F00FA3D39 /* Alamofire.framework.dSYM */; };
+		CC89FA561F77968600FA3D39 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC89FA551F77968600FA3D39 /* ReactiveCocoa.framework */; };
+		CC89FA581F77971400FA3D39 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */ = {isa = PBXBuildFile; fileRef = CC89FA571F77971400FA3D39 /* ReactiveCocoa.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				CC89FA581F77971400FA3D39 /* ReactiveCocoa.framework.dSYM in Copy dSYMs */,
 				CC89FA4C1F76BB9F00FA3D39 /* Result.framework.dSYM in Copy dSYMs */,
 				CC89FA4D1F76BB9F00FA3D39 /* Realm.framework.dSYM in Copy dSYMs */,
 				CC89FA4E1F76BB9F00FA3D39 /* RealmSwift.framework.dSYM in Copy dSYMs */,
@@ -95,6 +98,8 @@
 		CC89FA491F76BB9F00FA3D39 /* AlamofireImage.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = AlamofireImage.framework.dSYM; sourceTree = "<group>"; };
 		CC89FA4A1F76BB9F00FA3D39 /* AlamofireNetworkActivityIndicator.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = AlamofireNetworkActivityIndicator.framework.dSYM; sourceTree = "<group>"; };
 		CC89FA4B1F76BB9F00FA3D39 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		CC89FA551F77968600FA3D39 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		CC89FA571F77971400FA3D39 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 			files = (
 				CC89FA351F76B40900FA3D39 /* Result.framework in Frameworks */,
 				CC89FA371F76B42D00FA3D39 /* ReactiveSwift.framework in Frameworks */,
+				CC89FA561F77968600FA3D39 /* ReactiveCocoa.framework in Frameworks */,
 				CC89FA3E1F76B69600FA3D39 /* Alamofire.framework in Frameworks */,
 				CC89FA411F76B69600FA3D39 /* AlamofireNetworkActivityIndicator.framework in Frameworks */,
 				CC89FA3F1F76B69600FA3D39 /* AlamofireImage.framework in Frameworks */,
@@ -196,6 +202,7 @@
 			children = (
 				CC89FA341F76B40900FA3D39 /* Result.framework */,
 				CC89FA361F76B42D00FA3D39 /* ReactiveSwift.framework */,
+				CC89FA551F77968600FA3D39 /* ReactiveCocoa.framework */,
 				CC89FA3A1F76B69600FA3D39 /* Alamofire.framework */,
 				CC89FA3D1F76B69600FA3D39 /* AlamofireNetworkActivityIndicator.framework */,
 				CC89FA3B1F76B69600FA3D39 /* AlamofireImage.framework */,
@@ -210,6 +217,7 @@
 			children = (
 				CC89FA451F76BB9E00FA3D39 /* Result.framework.dSYM */,
 				CC89FA481F76BB9F00FA3D39 /* ReactiveSwift.framework.dSYM */,
+				CC89FA571F77971400FA3D39 /* ReactiveCocoa.framework.dSYM */,
 				CC89FA4B1F76BB9F00FA3D39 /* Alamofire.framework.dSYM */,
 				CC89FA4A1F76BB9F00FA3D39 /* AlamofireNetworkActivityIndicator.framework.dSYM */,
 				CC89FA491F76BB9F00FA3D39 /* AlamofireImage.framework.dSYM */,
@@ -366,6 +374,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+        "$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
@@ -376,6 +385,7 @@
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveSwift.framework",
+        "$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveCocoa.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireNetworkActivityIndicator.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireImage.framework",
